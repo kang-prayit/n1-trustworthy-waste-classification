@@ -1,12 +1,18 @@
-# PLACEHOLDER: after the Zenodo release, add the concept DOI of the software as
-#   doi: "10.5281/zenodo.XXXXXXX"
-# and, after the paper is published, add its DOI under preferred-citation (doi:, volume:, start:).
+# The paper is under review; add its DOI under preferred-citation (doi:, volume:, start:) after publication.
 cff-version: 1.2.0
 message: "If you use this software or the released splits/results, please cite the paper (preferred-citation) and the software."
 title: "Leakage-Aware Re-evaluation, Confidence Calibration, and Conformal Selective Prediction for Trustworthy Real-World Waste Classification: code, splits and results"
 type: software
 version: 1.0.0
 license: MIT
+doi: "10.5281/zenodo.23696855"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23696855"
+    description: "Zenodo archive of release v1.0.0"
+  - type: url
+    value: "https://github.com/kang-prayit/n1-trustworthy-waste-classification"
+    description: "GitHub repository"
 repository-code: "https://github.com/kang-prayit/n1-trustworthy-waste-classification"
 authors:
   - family-names: Prayitno
@@ -50,4 +56,4 @@ preferred-citation:
       orcid: "https://orcid.org/0000-0003-2887-3527"
   journal: "Scientific Reports"
   year: 2026
-  notes: "Manuscript under review; DOI to be added after publication."
+  notes: "Submitted to Scientific Reports; under review."

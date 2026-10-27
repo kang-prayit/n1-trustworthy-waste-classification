@@ -4,7 +4,7 @@ Companion data package for:
 
 > Prayitno and Karisma Trinanda Putra. *Leakage-Aware Re-evaluation, Confidence Calibration, and Conformal
 > Selective Prediction for Trustworthy Real-World Waste Classification.* Scientific Reports (under review), 2026.
-> Code: https://github.com/kang-prayit/n1-trustworthy-waste-classification · Archived release: Zenodo, DOI `[PLACEHOLDER: Zenodo software DOI]`
+> Code: https://github.com/kang-prayit/n1-trustworthy-waste-classification · Archived release: Zenodo, https://doi.org/10.5281/zenodo.23696855
 
 This package contains **no images**. Instead it holds everything you need to reproduce, inspect or reuse the
 preprocessing of the three public datasets used in the paper:
