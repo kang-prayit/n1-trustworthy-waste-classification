@@ -1,0 +1,4 @@
+group_id,relpath_i,class_i,relpath_j,class_j,criterion,phash_dist,dhash_dist,cosine,cross_class
+417,glass/glass115.jpg,glass,metal/metal91.jpg,metal,MD5,0,0,,True
+484,glass/glass176.jpg,glass,plastic/plastic152.jpg,plastic,MD5,0,0,,True
+720,glass/glass389.jpg,glass,plastic/plastic332.jpg,plastic,MD5,0,0,,True

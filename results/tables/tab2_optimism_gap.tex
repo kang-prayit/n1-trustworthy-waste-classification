@@ -1,0 +1,14 @@
+\begin{table}[ht]
+\centering
+\small
+\caption{Optimism of the naive protocol versus leakage-aware evaluation (test accuracy, mean $\pm$ sd over seeds/folds).}
+\label{tab:tab2_optimism_gap}
+\begin{tabular}{lllllllll}
+\hline
+Model & Kumar et al. 2026 (reported, single split) & Naive + aug-before-split acc & Naive + aug-before-split macro-F1 & Naive random split acc & Naive random split macro-F1 & Leakage-aware grouped 5-fold CV acc & Leakage-aware grouped 5-fold CV macro-F1 & Optimism gap (pp) \\
+\hline
+ResNet101 & 0.9886 & 0.9977 $\pm$ 0.0002 & 0.9978 $\pm$ 0.0003 & 0.9336 $\pm$ 0.0072 & 0.9345 $\pm$ 0.0063 & 0.9356 $\pm$ 0.0052 & 0.9373 $\pm$ 0.0061 & 6.21 \\
+ResNet101+InceptionV3 & 0.9000 & 0.9978 $\pm$ 0.0002 & 0.9978 $\pm$ 0.0004 & 0.9345 $\pm$ 0.0045 & 0.9386 $\pm$ 0.0048 & 0.9341 $\pm$ 0.0089 & 0.9359 $\pm$ 0.0095 & 6.37 \\
+\hline
+\end{tabular}
+\end{table}

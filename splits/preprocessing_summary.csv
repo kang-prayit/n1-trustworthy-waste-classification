@@ -1,0 +1,4 @@
+dataset,n_classes,n_images,n_quarantined,n_duplicate_groups,n_images_in_duplicate_groups,pct_images_in_duplicate_groups,largest_group,n_redundant_images,n_images_after_dedup,n_exact_md5_duplicate_images,n_exact_md5_groups,n_hash_pairs,n_embedding_pairs,n_cross_class_links,n_cross_class_exact_md5_links,n_mixed_label_groups,naive_aug0_leak,naive_aug3_leak,tb_test_in_train,tb_val_in_train,tb_test_in_train_mh,tb_val_in_train_mh,tb_test_in_train_md5,tb_val_in_train_md5
+realwaste,9,4752,0,16,63,1.33,16,47,4705,0,0,2,92,0,0,0,1.26,97.41,,,,,,
+trashnet,6,2527,0,39,79,3.13,3,40,2487,6,3,29,31,3,3,3,1.84,,,,,,,
+trashbox,7,17853,3,855,1889,10.58,53,1034,16819,724,344,842,1360,11,3,7,8.55,,8.37,9.1,6.36,7.13,2.9,3.54

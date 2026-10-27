@@ -1,0 +1,11 @@
+class,n_images,n_images_in_dup_groups,pct_in_dup_groups,n_dup_groups_touching_class,n_after_dedup_keep_one_per_group,n_removed_by_dedup
+Cardboard,461,0,0.0,0,461,0
+Food Organics,411,6,1.46,3,408,3
+Glass,420,0,0.0,0,420,0
+Metal,790,4,0.51,2,788,2
+Miscellaneous Trash,495,0,0.0,0,495,0
+Paper,500,0,0.0,0,500,0
+Plastic,921,4,0.43,2,919,2
+Textile Trash,318,0,0.0,0,318,0
+Vegetation,436,49,11.24,9,396,40
+TOTAL,4752,63,1.33,16,4705,47

@@ -1,0 +1,16 @@
+\begin{table}[ht]
+\centering
+\small
+\caption{Effect of segmentation pre-processing (approximation of Kumar et al. Alg. 1) on accuracy and calibration.}
+\label{tab:tab9_segmentation_ablation}
+\begin{tabular}{lllllll}
+\hline
+Model & Input & Accuracy & Macro-F1 & ECE raw & ECE TS & AURC TS \\
+\hline
+ResNet101+InceptionV3 & raw image & 0.9364 $\pm$ 0.0114 & 0.9384 $\pm$ 0.0103 & 0.045 $\pm$ 0.011 & 0.021 $\pm$ 0.002 & 0.0090 $\pm$ 0.0026 \\
+ResNet101+InceptionV3 & segmented & 0.8493 $\pm$ 0.0066 & 0.8513 $\pm$ 0.0055 & 0.102 $\pm$ 0.006 & 0.029 $\pm$ 0.009 & 0.0346 $\pm$ 0.0017 \\
+ResNet101 & raw image & 0.9360 $\pm$ 0.0028 & 0.9380 $\pm$ 0.0016 & 0.044 $\pm$ 0.002 & 0.020 $\pm$ 0.007 & 0.0098 $\pm$ 0.0040 \\
+ResNet101 & segmented & 0.8443 $\pm$ 0.0102 & 0.8427 $\pm$ 0.0101 & 0.107 $\pm$ 0.012 & 0.028 $\pm$ 0.009 & 0.0375 $\pm$ 0.0031 \\
+\hline
+\end{tabular}
+\end{table}

@@ -1,0 +1,80 @@
+{
+  "dataset": "trashnet",
+  "n_classes": 6,
+  "n_images": 2527,
+  "n_groups": 2487,
+  "n_duplicate_groups": 39,
+  "n_images_in_duplicate_groups": 79,
+  "pct_images_in_duplicate_groups": 3.13,
+  "n_redundant_images": 40,
+  "n_images_after_dedup": 2487,
+  "largest_group": 3,
+  "n_exact_md5_duplicate_images": 6,
+  "n_exact_md5_groups": 3,
+  "n_hash_pairs": 29,
+  "n_embedding_pairs": 31,
+  "n_links_total": 40,
+  "n_cross_class_links": 3,
+  "n_cross_class_exact_md5_links": 3,
+  "n_mixed_label_groups": 3,
+  "n_groups_by_criterion_only": {
+    "MD5": 3,
+    "pHash<=6&dHash<=6": 6,
+    "DINOv2cos>=0.95": 10
+  },
+  "phash_thresh": 6,
+  "dhash_thresh": 6,
+  "embed_thresh": 0.95,
+  "folds": [
+    {
+      "fold": 0,
+      "train": 1616,
+      "cal_ts": 202,
+      "cal_conf": 203,
+      "test": 506
+    },
+    {
+      "fold": 1,
+      "train": 1617,
+      "cal_ts": 202,
+      "cal_conf": 202,
+      "test": 506
+    },
+    {
+      "fold": 2,
+      "train": 1617,
+      "cal_ts": 202,
+      "cal_conf": 203,
+      "test": 505
+    },
+    {
+      "fold": 3,
+      "train": 1617,
+      "cal_ts": 202,
+      "cal_conf": 203,
+      "test": 505
+    },
+    {
+      "fold": 4,
+      "train": 1617,
+      "cal_ts": 202,
+      "cal_conf": 203,
+      "test": 505
+    }
+  ],
+  "naive": {
+    "aug0": {
+      "items": {
+        "train": 1768,
+        "cal_ts": 189,
+        "cal_conf": 190,
+        "test": 380
+      },
+      "pct_test_items_whose_source_image_in_train": 0.0,
+      "pct_test_items_whose_dup_group_in_train": 1.84
+    }
+  },
+  "check_groups_reproduced_from_links": true,
+  "check_folds_group_disjoint": true,
+  "n_quarantined": 0
+}

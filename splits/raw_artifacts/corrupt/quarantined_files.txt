@@ -1,0 +1,3 @@
+trashbox/cardboard/train__cardboard 1075.jpg
+trashbox/e-waste/train__e-waste 1719.jpg
+trashbox/paper/train__paper 2273.jpg

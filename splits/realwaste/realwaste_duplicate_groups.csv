@@ -1,0 +1,64 @@
+relpath,class,group_id,group_size,group_classes,criterion,min_phash_dist,min_dhash_dist,max_cosine,md5
+Food Organics/Food Organics_360.jpg,Food Organics,751,2,Food Organics,DINOv2cos>=0.95,,,0.9504,909fb55016295a9029a3ec1b3f409698
+Food Organics/Food Organics_361.jpg,Food Organics,751,2,Food Organics,DINOv2cos>=0.95,,,0.9504,d71065b28ca0b6b872bf290a942a92fa
+Food Organics/Food Organics_52.jpg,Food Organics,819,2,Food Organics,DINOv2cos>=0.95,,,0.9735,1ab391638632fc65f9710f5147542a7c
+Food Organics/Food Organics_54.jpg,Food Organics,819,2,Food Organics,DINOv2cos>=0.95,,,0.9735,9aec5df7955b9b9beb5faf199760b9be
+Food Organics/Food Organics_81.jpg,Food Organics,850,2,Food Organics,pHash<=6&dHash<=6+DINOv2cos>=0.95,4,1,0.9525,cbf2981ed40a989da7effadd89d13530
+Food Organics/Food Organics_82.jpg,Food Organics,850,2,Food Organics,pHash<=6&dHash<=6+DINOv2cos>=0.95,4,1,0.9525,3ff04c8694af6836ee38f3c9fee35b7f
+Metal/Metal_216.jpg,Metal,1419,2,Metal,pHash<=6&dHash<=6+DINOv2cos>=0.95,6,3,0.9512,adb8489f2f475f44143762882d12e2ce
+Metal/Metal_217.jpg,Metal,1419,2,Metal,pHash<=6&dHash<=6+DINOv2cos>=0.95,6,3,0.9512,f6d1649fd2b2e0e16142128df8d0dd0e
+Metal/Metal_292.jpg,Metal,1502,2,Metal,DINOv2cos>=0.95,,,0.9568,aaf4b7456ce89c4b6aad3992f925bf69
+Metal/Metal_305.jpg,Metal,1502,2,Metal,DINOv2cos>=0.95,,,0.9568,e051a4395ba3036f78bd905bde3ed0ed
+Plastic/Plastic_157.jpg,Plastic,3136,2,Plastic,DINOv2cos>=0.95,,,0.9631,d11926b0f0ae988e6557efc75d78dfe8
+Plastic/Plastic_190.jpg,Plastic,3136,2,Plastic,DINOv2cos>=0.95,,,0.9631,bc629254fc56b102a4126a7fdf407e95
+Plastic/Plastic_480.jpg,Plastic,3494,2,Plastic,DINOv2cos>=0.95,,,0.9599,e8122fbf8390c3da1817ca5d9580ffe1
+Plastic/Plastic_482.jpg,Plastic,3494,2,Plastic,DINOv2cos>=0.95,,,0.9599,29b3a91f73db17dcb233c95f4def3cc6
+Vegetation/Vegetation_100.jpg,Vegetation,4311,12,Vegetation,DINOv2cos>=0.95,,,0.9682,6962caa3c3ffd1d8d3ba4fda56ed23c9
+Vegetation/Vegetation_102.jpg,Vegetation,4311,12,Vegetation,DINOv2cos>=0.95,,,0.9637,e2567fc9794db6bd23a1507a36375919
+Vegetation/Vegetation_103.jpg,Vegetation,4311,12,Vegetation,DINOv2cos>=0.95,,,0.9694,1c617b807bc8677310d1e98fb611268a
+Vegetation/Vegetation_183.jpg,Vegetation,4311,12,Vegetation,DINOv2cos>=0.95,,,0.9546,fabac79bf7312dbc26f60be916de461e
+Vegetation/Vegetation_67.jpg,Vegetation,4311,12,Vegetation,DINOv2cos>=0.95,,,0.9694,7bf3ab7ffc211a8671c7b559f3973ed4
+Vegetation/Vegetation_77.jpg,Vegetation,4311,12,Vegetation,DINOv2cos>=0.95,,,0.9569,6077d5ced892a633f3258baa73728c25
+Vegetation/Vegetation_78.jpg,Vegetation,4311,12,Vegetation,DINOv2cos>=0.95,,,0.9569,5137a48889d678b95c554db96a799c74
+Vegetation/Vegetation_95.jpg,Vegetation,4311,12,Vegetation,DINOv2cos>=0.95,,,0.9706,92595281d9b5005ac26dfcffcb203cfd
+Vegetation/Vegetation_96.jpg,Vegetation,4311,12,Vegetation,DINOv2cos>=0.95,,,0.9706,3d0e029775b009e85351c660a010bace
+Vegetation/Vegetation_97.jpg,Vegetation,4311,12,Vegetation,DINOv2cos>=0.95,,,0.9569,2948621ff714b5b11af8b60e668d2da5
+Vegetation/Vegetation_98.jpg,Vegetation,4311,12,Vegetation,DINOv2cos>=0.95,,,0.962,33c01e31737d76a4b4b63d90044494b9
+Vegetation/Vegetation_99.jpg,Vegetation,4311,12,Vegetation,DINOv2cos>=0.95,,,0.959,a089fa74c4c1415f0261b774411c1b6b
+Vegetation/Vegetation_107.jpg,Vegetation,4316,7,Vegetation,DINOv2cos>=0.95,,,0.9703,e550f61cb55e7db2efefe9666ff4273b
+Vegetation/Vegetation_108.jpg,Vegetation,4316,7,Vegetation,DINOv2cos>=0.95,,,0.9703,22736bd5e555c21087304fae9c5530f6
+Vegetation/Vegetation_109.jpg,Vegetation,4316,7,Vegetation,DINOv2cos>=0.95,,,0.9635,4ccd31ad0e20bc0642cd942e24708af8
+Vegetation/Vegetation_110.jpg,Vegetation,4316,7,Vegetation,DINOv2cos>=0.95,,,0.9644,620c0a0160a78648fb3576b587720207
+Vegetation/Vegetation_111.jpg,Vegetation,4316,7,Vegetation,DINOv2cos>=0.95,,,0.9644,863362c74f5fa8ca8763fd12fd0be9b2
+Vegetation/Vegetation_114.jpg,Vegetation,4316,7,Vegetation,DINOv2cos>=0.95,,,0.9564,fc89edcbd55f0d04e2360885e46e2f4a
+Vegetation/Vegetation_226.jpg,Vegetation,4316,7,Vegetation,DINOv2cos>=0.95,,,0.9644,24a807762c2d8154215c9b131f16d516
+Vegetation/Vegetation_125.jpg,Vegetation,4331,16,Vegetation,DINOv2cos>=0.95,,,0.9594,265bf80bf7ca1d8b72f48d8c6c139bbd
+Vegetation/Vegetation_126.jpg,Vegetation,4331,16,Vegetation,DINOv2cos>=0.95,,,0.9723,2cb4cbaa134eef8638e770f7f542599e
+Vegetation/Vegetation_129.jpg,Vegetation,4331,16,Vegetation,DINOv2cos>=0.95,,,0.9572,9a02bdaa3fbe1aa94aa5fd05574aefc2
+Vegetation/Vegetation_130.jpg,Vegetation,4331,16,Vegetation,DINOv2cos>=0.95,,,0.9588,e2345c7def1501a35b004b43826a3e47
+Vegetation/Vegetation_133.jpg,Vegetation,4331,16,Vegetation,DINOv2cos>=0.95,,,0.9614,731caf4504a533111e97631e297add80
+Vegetation/Vegetation_134.jpg,Vegetation,4331,16,Vegetation,DINOv2cos>=0.95,,,0.9585,16df226bd2fe5eedfeca79e121963478
+Vegetation/Vegetation_136.jpg,Vegetation,4331,16,Vegetation,DINOv2cos>=0.95,,,0.9594,1fbb34e1e2d56c55e879eb304bb43547
+Vegetation/Vegetation_137.jpg,Vegetation,4331,16,Vegetation,DINOv2cos>=0.95,,,0.9631,1fe947511ffa40cf1cd108846924f1a4
+Vegetation/Vegetation_138.jpg,Vegetation,4331,16,Vegetation,DINOv2cos>=0.95,,,0.9614,1861884b027e5e10ada7706d93c86851
+Vegetation/Vegetation_139.jpg,Vegetation,4331,16,Vegetation,DINOv2cos>=0.95,,,0.9631,8b42cc7dd22e1701330cf22880978337
+Vegetation/Vegetation_140.jpg,Vegetation,4331,16,Vegetation,DINOv2cos>=0.95,,,0.961,1ebcc47570ce647b25ca8ee027b32dfb
+Vegetation/Vegetation_210.jpg,Vegetation,4331,16,Vegetation,DINOv2cos>=0.95,,,0.9585,60fed8c05ee8c3dbacd8ddf7c488336e
+Vegetation/Vegetation_225.jpg,Vegetation,4331,16,Vegetation,DINOv2cos>=0.95,,,0.9567,1393c5b875fdcdc3882ad6891b51bb96
+Vegetation/Vegetation_74.jpg,Vegetation,4331,16,Vegetation,DINOv2cos>=0.95,,,0.9677,f21f5ca8f4008c421de8cca03e33cafb
+Vegetation/Vegetation_75.jpg,Vegetation,4331,16,Vegetation,DINOv2cos>=0.95,,,0.9584,9cb3b43580286f913b92bfd8a7a72c11
+Vegetation/Vegetation_76.jpg,Vegetation,4331,16,Vegetation,DINOv2cos>=0.95,,,0.9723,614f36179523a4cd4c13e8a656d509e9
+Vegetation/Vegetation_148.jpg,Vegetation,4346,2,Vegetation,DINOv2cos>=0.95,,,0.9526,4929fe1692332ca632a7b59cbc678eba
+Vegetation/Vegetation_149.jpg,Vegetation,4346,2,Vegetation,DINOv2cos>=0.95,,,0.9526,66d006013626f68063efed6ee2e7b286
+Vegetation/Vegetation_152.jpg,Vegetation,4350,4,Vegetation,DINOv2cos>=0.95,,,0.9585,ca3380917f1560ad5eb9afbc625a36de
+Vegetation/Vegetation_237.jpg,Vegetation,4350,4,Vegetation,DINOv2cos>=0.95,,,0.9585,b68ff2ea9cf17ab572f20f571555e561
+Vegetation/Vegetation_238.jpg,Vegetation,4350,4,Vegetation,DINOv2cos>=0.95,,,0.9797,26445489869dde698f3347808b021166
+Vegetation/Vegetation_239.jpg,Vegetation,4350,4,Vegetation,DINOv2cos>=0.95,,,0.9797,15d37bce06320fd801280e5d849f5491
+Vegetation/Vegetation_234.jpg,Vegetation,4437,2,Vegetation,DINOv2cos>=0.95,,,0.9539,b22d4fa649945a7575dd4c81f1492b46
+Vegetation/Vegetation_236.jpg,Vegetation,4437,2,Vegetation,DINOv2cos>=0.95,,,0.9539,25a49134cec63b22f56a5eadb24dc7f7
+Vegetation/Vegetation_240.jpg,Vegetation,4440,2,Vegetation,DINOv2cos>=0.95,,,0.9615,71180813f70ce261de6dc363422863a1
+Vegetation/Vegetation_241.jpg,Vegetation,4440,2,Vegetation,DINOv2cos>=0.95,,,0.9615,80df1fadbc42ea31c97b4d567d78e6f4
+Vegetation/Vegetation_243.jpg,Vegetation,4442,2,Vegetation,DINOv2cos>=0.95,,,0.9627,48fe6f4e02439e59d8d17c02cfcb5502
+Vegetation/Vegetation_245.jpg,Vegetation,4442,2,Vegetation,DINOv2cos>=0.95,,,0.9627,ceb6ccdfb5c538e6858f24c9c3f2b93b
+Vegetation/Vegetation_80.jpg,Vegetation,4690,2,Vegetation,DINOv2cos>=0.95,,,0.9799,39d8eaeb0b6ba0ed5d18eef3a2ed9258
+Vegetation/Vegetation_82.jpg,Vegetation,4690,2,Vegetation,DINOv2cos>=0.95,,,0.9799,6b7378b34c391fe70e807ad929205f0c

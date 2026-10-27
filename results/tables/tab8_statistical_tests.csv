@@ -1,0 +1,40 @@
+Test,Metric,Comparison,Pairs,Mean diff,p,p (Holm)
+Wilcoxon signed-rank,acc (raw),ConvNeXt-T vs ResNet101,15,+0.0058,0.01746,0.03492
+Wilcoxon signed-rank,acc (raw),DeiT-S vs ResNet101,15,+0.0072,0.006957,0.02087
+Wilcoxon signed-rank,acc (raw),EfficientNetV2-S vs ResNet101,15,-0.0211,0.0006517,0.002607
+Wilcoxon signed-rank,acc (raw),ResNet101+InceptionV3 vs ResNet101,15,-0.0015,0.57,0.57
+Wilcoxon signed-rank,acc (raw),MobileNetV3-L vs ResNet101,15,-0.0299,6.104e-05,0.0003052
+Wilcoxon signed-rank,macro_f1 (raw),ConvNeXt-T vs ResNet101,15,+0.0060,0.03015,0.0603
+Wilcoxon signed-rank,macro_f1 (raw),DeiT-S vs ResNet101,15,+0.0071,0.001526,0.004578
+Wilcoxon signed-rank,macro_f1 (raw),EfficientNetV2-S vs ResNet101,15,-0.0205,6.104e-05,0.0003052
+Wilcoxon signed-rank,macro_f1 (raw),ResNet101+InceptionV3 vs ResNet101,15,-0.0013,0.5245,0.5245
+Wilcoxon signed-rank,macro_f1 (raw),MobileNetV3-L vs ResNet101,15,-0.0294,6.104e-05,0.0003052
+Wilcoxon signed-rank,ece (ts),ConvNeXt-T vs ResNet101,15,-0.0028,0.2078,0.4543
+Wilcoxon signed-rank,ece (ts),DeiT-S vs ResNet101,15,-0.0030,0.073,0.292
+Wilcoxon signed-rank,ece (ts),EfficientNetV2-S vs ResNet101,15,+0.0021,0.3028,0.4543
+Wilcoxon signed-rank,ece (ts),ResNet101+InceptionV3 vs ResNet101,15,+0.0024,0.1514,0.4543
+Wilcoxon signed-rank,ece (ts),MobileNetV3-L vs ResNet101,15,+0.0049,0.008362,0.04181
+Wilcoxon signed-rank,nll (ts),ConvNeXt-T vs ResNet101,15,-0.0315,0.002014,0.004028
+Wilcoxon signed-rank,nll (ts),DeiT-S vs ResNet101,15,-0.0237,0.0004272,0.001282
+Wilcoxon signed-rank,nll (ts),EfficientNetV2-S vs ResNet101,15,+0.0603,6.104e-05,0.0003052
+Wilcoxon signed-rank,nll (ts),ResNet101+InceptionV3 vs ResNet101,15,+0.0016,0.5995,0.5995
+Wilcoxon signed-rank,nll (ts),MobileNetV3-L vs ResNet101,15,+0.0739,6.104e-05,0.0003052
+Wilcoxon signed-rank,ECE raw vs TS,ConvNeXt-T,15,+0.0217,6.104e-05,
+Wilcoxon signed-rank,ECE raw vs TS,DeiT-S,15,+0.0256,6.104e-05,
+Wilcoxon signed-rank,ECE raw vs TS,EfficientNetV2-S,15,+0.0322,6.104e-05,
+Wilcoxon signed-rank,ECE raw vs TS,ResNet101+InceptionV3,15,+0.0258,6.104e-05,
+Wilcoxon signed-rank,ECE raw vs TS,MobileNetV3-L,15,+0.0279,6.104e-05,
+Wilcoxon signed-rank,ECE raw vs TS,ResNet101,15,+0.0249,6.104e-05,
+McNemar (exact),"accuracy (pooled OOF, seed 0)",ConvNeXt-T vs ResNet101,4752,"+0.0036 (b=151, c=134)",0.3433,0.6865
+McNemar (exact),"accuracy (pooled OOF, seed 0)",DeiT-S vs ResNet101,4752,"+0.0074 (b=148, c=113)",0.03513,0.1054
+McNemar (exact),"accuracy (pooled OOF, seed 0)",EfficientNetV2-S vs ResNet101,4752,"-0.0227 (b=117, c=225)",5.431e-09,2.173e-08
+McNemar (exact),"accuracy (pooled OOF, seed 0)",ResNet101+InceptionV3 vs ResNet101,4752,"+0.0004 (b=117, c=115)",0.9477,0.9477
+McNemar (exact),"accuracy (pooled OOF, seed 0)",MobileNetV3-L vs ResNet101,4752,"-0.0322 (b=109, c=262)",1.173e-15,5.865e-15
+Wilcoxon signed-rank (optimism gap),acc (raw),"ResNet101+InceptionV3, realwaste: naive_aug vs grouped",3,+0.0535,0.25,0.5
+Wilcoxon signed-rank (optimism gap),acc (raw),"ResNet101, realwaste: naive_aug vs grouped",3,+0.0579,0.25,0.5
+Wilcoxon signed-rank (optimism gap),acc (raw),"ResNet101+InceptionV3, realwaste: naive vs grouped",3,-0.0098,0.25,0.5
+Wilcoxon signed-rank (optimism gap),acc (raw),"ResNet101, realwaste: naive vs grouped",3,-0.0062,0.25,0.5
+Wilcoxon signed-rank (optimism gap),macro_f1 (raw),"ResNet101+InceptionV3, realwaste: naive_aug vs grouped",3,+0.0502,0.25,0.5
+Wilcoxon signed-rank (optimism gap),macro_f1 (raw),"ResNet101, realwaste: naive_aug vs grouped",3,+0.0556,0.25,0.5
+Wilcoxon signed-rank (optimism gap),macro_f1 (raw),"ResNet101+InceptionV3, realwaste: naive vs grouped",3,-0.0090,0.25,0.5
+Wilcoxon signed-rank (optimism gap),macro_f1 (raw),"ResNet101, realwaste: naive vs grouped",3,-0.0077,0.25,0.5

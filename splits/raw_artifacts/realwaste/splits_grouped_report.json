@@ -1,0 +1,52 @@
+[
+  {
+    "train": 3039,
+    "calfit": 380,
+    "calconf": 381,
+    "test": 952,
+    "fold": 0,
+    "test_items": 952,
+    "pct_test_source_image_in_train": 0.0,
+    "pct_test_dupgroup_in_train": 0.0
+  },
+  {
+    "train": 3041,
+    "calfit": 381,
+    "calconf": 380,
+    "test": 950,
+    "fold": 1,
+    "test_items": 950,
+    "pct_test_source_image_in_train": 0.0,
+    "pct_test_dupgroup_in_train": 0.0
+  },
+  {
+    "train": 3041,
+    "calfit": 380,
+    "calconf": 381,
+    "test": 950,
+    "fold": 2,
+    "test_items": 950,
+    "pct_test_source_image_in_train": 0.0,
+    "pct_test_dupgroup_in_train": 0.0
+  },
+  {
+    "train": 3041,
+    "calfit": 380,
+    "calconf": 381,
+    "test": 950,
+    "fold": 3,
+    "test_items": 950,
+    "pct_test_source_image_in_train": 0.0,
+    "pct_test_dupgroup_in_train": 0.0
+  },
+  {
+    "train": 3041,
+    "calfit": 380,
+    "calconf": 381,
+    "test": 950,
+    "fold": 4,
+    "test_items": 950,
+    "pct_test_source_image_in_train": 0.0,
+    "pct_test_dupgroup_in_train": 0.0
+  }
+]

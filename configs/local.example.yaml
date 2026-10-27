@@ -1,0 +1,10 @@
+# Copy to configs/local.yaml (git-ignored) and adjust the paths; all settings not given here are inherited
+# from full.yaml. Relative paths are resolved against the repository root, absolute paths are used as is.
+#   python run_all.py --config configs/local.yaml
+#   python n1_finalize.py --config configs/local.yaml
+base: full.yaml
+data_root: data            # expects <data_root>/raw/{realwaste,trashnet,trashbox}/<class>/<file>
+work_dir: work             # index, duplicate groups, splits, image caches (scripts/install_splits.py writes here)
+out_dir: outputs           # runs/, results/, tables/, figures/
+log_dir: logs
+# train: {batch_size: 64, num_workers: 8}   # e.g. lower these for a 12 GB GPU

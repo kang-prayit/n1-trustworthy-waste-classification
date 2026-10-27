@@ -1,0 +1,11 @@
+criterion,threshold,n_pairs
+"pHash Hamming <= t (dHash ignored), pairs",0,0
+"pHash Hamming <= t (dHash ignored), pairs",2,3
+"pHash Hamming <= t (dHash ignored), pairs",4,14
+"pHash Hamming <= t (dHash ignored), pairs",6,74
+"pHash Hamming <= t (dHash ignored), pairs",8,335
+"pHash Hamming <= t (dHash ignored), pairs",10,1222
+"DINOv2 ViT-S/14 cosine >= t (same class), pairs",0.9,704
+"DINOv2 ViT-S/14 cosine >= t (same class), pairs",0.92,424
+"DINOv2 ViT-S/14 cosine >= t (same class), pairs",0.95,92
+"DINOv2 ViT-S/14 cosine >= t (same class), pairs",0.98,0

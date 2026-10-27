@@ -1,0 +1,9 @@
+{
+  "train": 12497,
+  "calfit": 1339,
+  "calconf": 1339,
+  "test": 2678,
+  "test_items": 2678,
+  "pct_test_source_image_in_train": 0.0,
+  "pct_test_dupgroup_in_train": 8.55
+}

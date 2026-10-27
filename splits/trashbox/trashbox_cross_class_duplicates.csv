@@ -1,0 +1,12 @@
+group_id,relpath_i,class_i,relpath_j,class_j,criterion,phash_dist,dhash_dist,cosine,cross_class,official_split_i,official_split_j
+1815,cardboard/train__cardboard 700.jpg,cardboard,paper/train__paper 2235.jpg,paper,MD5,0,0,,True,train,train
+3531,e-waste/train__e-waste 2078.jpg,e-waste,glass/test__glass 2346.jpg,glass,pHash<=6&dHash<=6,6,3,,True,train,test
+5206,glass/test__glass 2328.jpg,glass,paper/train__paper 1339.jpg,paper,pHash<=6&dHash<=6,4,6,,True,test,train
+5671,glass/train__glass 1433.jpg,glass,plastic/train__plastic 1212.jpg,plastic,MD5,0,0,,True,train,train
+5671,glass/train__glass 1832.jpg,glass,plastic/train__plastic 1212.jpg,plastic,MD5,0,0,,True,train,train
+6308,glass/train__glass 224.jpg,glass,metal/train__metal 2266.jpg,metal,pHash<=6&dHash<=6,4,3,,True,train,train
+9852,metal/train__metal 1461.jpg,metal,paper/train__paper 1850.jpg,paper,pHash<=6&dHash<=6,6,3,,True,train,train
+9852,metal/train__metal 1500.jpg,metal,paper/train__paper 1850.jpg,paper,pHash<=6&dHash<=6,6,3,,True,train,train
+11939,paper/train__paper 707.jpg,paper,plastic/train__plastic 2427.jpg,plastic,pHash<=6&dHash<=6,4,3,,True,train,train
+11939,paper/train__paper 823.jpg,paper,plastic/train__plastic 2427.jpg,plastic,pHash<=6&dHash<=6,4,4,,True,train,train
+11939,paper/train__paper 934.jpg,paper,plastic/train__plastic 2427.jpg,plastic,pHash<=6&dHash<=6,4,4,,True,train,train

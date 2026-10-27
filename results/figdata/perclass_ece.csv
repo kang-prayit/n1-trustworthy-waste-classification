@@ -1,0 +1,109 @@
+model,method,cls,ece,n
+resnet101,raw,Cardboard,0.008286212126083072,4752
+resnet101,raw,Food Organics,0.0045438657295367646,4752
+resnet101,raw,Glass,0.005638875417913507,4752
+resnet101,raw,Metal,0.018292588935556617,4752
+resnet101,raw,Miscellaneous Trash,0.021271880002951365,4752
+resnet101,raw,Paper,0.008315090351056775,4752
+resnet101,raw,Plastic,0.02189742468146777,4752
+resnet101,raw,Textile Trash,0.008352287405634807,4752
+resnet101,raw,Vegetation,0.005271340635204975,4752
+resnet101,ts,Cardboard,0.006466751628193319,4752
+resnet101,ts,Food Organics,0.005520259999654766,4752
+resnet101,ts,Glass,0.005754541727551613,4752
+resnet101,ts,Metal,0.01172440692047244,4752
+resnet101,ts,Miscellaneous Trash,0.015396626866816249,4752
+resnet101,ts,Paper,0.006578430992907428,4752
+resnet101,ts,Plastic,0.014132138637045225,4752
+resnet101,ts,Textile Trash,0.005760039561094663,4752
+resnet101,ts,Vegetation,0.005937368971707422,4752
+hybrid_r101_incv3,raw,Cardboard,0.007511353719097144,4752
+hybrid_r101_incv3,raw,Food Organics,0.003999807705112646,4752
+hybrid_r101_incv3,raw,Glass,0.005317051666117269,4752
+hybrid_r101_incv3,raw,Metal,0.015070141001714062,4752
+hybrid_r101_incv3,raw,Miscellaneous Trash,0.02149998362206308,4752
+hybrid_r101_incv3,raw,Paper,0.0074237781131873334,4752
+hybrid_r101_incv3,raw,Plastic,0.02214637208834992,4752
+hybrid_r101_incv3,raw,Textile Trash,0.00771350217845293,4752
+hybrid_r101_incv3,raw,Vegetation,0.0047498304097853185,4752
+hybrid_r101_incv3,ts,Cardboard,0.007949809828361716,4752
+hybrid_r101_incv3,ts,Food Organics,0.004336308245342654,4752
+hybrid_r101_incv3,ts,Glass,0.004050793669081982,4752
+hybrid_r101_incv3,ts,Metal,0.008701231226164771,4752
+hybrid_r101_incv3,ts,Miscellaneous Trash,0.014173429859618076,4752
+hybrid_r101_incv3,ts,Paper,0.0046951965886856215,4752
+hybrid_r101_incv3,ts,Plastic,0.012293770932254018,4752
+hybrid_r101_incv3,ts,Textile Trash,0.0038476425315398205,4752
+hybrid_r101_incv3,ts,Vegetation,0.005821466406624971,4752
+efficientnetv2_s,raw,Cardboard,0.013401625709589006,4752
+efficientnetv2_s,raw,Food Organics,0.006309668904505502,4752
+efficientnetv2_s,raw,Glass,0.007254948220388957,4752
+efficientnetv2_s,raw,Metal,0.017703420316218948,4752
+efficientnetv2_s,raw,Miscellaneous Trash,0.020852962682726517,4752
+efficientnetv2_s,raw,Paper,0.010040819371919302,4752
+efficientnetv2_s,raw,Plastic,0.02558876641389076,4752
+efficientnetv2_s,raw,Textile Trash,0.00845840514199033,4752
+efficientnetv2_s,raw,Vegetation,0.004180365417382006,4752
+efficientnetv2_s,ts,Cardboard,0.013150693571732739,4752
+efficientnetv2_s,ts,Food Organics,0.0071834429707915955,4752
+efficientnetv2_s,ts,Glass,0.007226603110102091,4752
+efficientnetv2_s,ts,Metal,0.007588552531488548,4752
+efficientnetv2_s,ts,Miscellaneous Trash,0.012406182335888744,4752
+efficientnetv2_s,ts,Paper,0.005716890331259807,4752
+efficientnetv2_s,ts,Plastic,0.021638104360149315,4752
+efficientnetv2_s,ts,Textile Trash,0.005126305228273273,4752
+efficientnetv2_s,ts,Vegetation,0.007820233635878155,4752
+mobilenetv3_large,raw,Cardboard,0.014883562984509633,4752
+mobilenetv3_large,raw,Food Organics,0.004486565657888083,4752
+mobilenetv3_large,raw,Glass,0.0074148171588748445,4752
+mobilenetv3_large,raw,Metal,0.01966004844909699,4752
+mobilenetv3_large,raw,Miscellaneous Trash,0.01900170969275019,4752
+mobilenetv3_large,raw,Paper,0.011650025358565184,4752
+mobilenetv3_large,raw,Plastic,0.027940736635993467,4752
+mobilenetv3_large,raw,Textile Trash,0.011610844583760702,4752
+mobilenetv3_large,raw,Vegetation,0.004010718792087494,4752
+mobilenetv3_large,ts,Cardboard,0.013824505827439784,4752
+mobilenetv3_large,ts,Food Organics,0.005957095167813223,4752
+mobilenetv3_large,ts,Glass,0.004040619239574646,4752
+mobilenetv3_large,ts,Metal,0.012918495174023312,4752
+mobilenetv3_large,ts,Miscellaneous Trash,0.010881208287755071,4752
+mobilenetv3_large,ts,Paper,0.0053306598705182996,4752
+mobilenetv3_large,ts,Plastic,0.023436926918065055,4752
+mobilenetv3_large,ts,Textile Trash,0.01218419115010691,4752
+mobilenetv3_large,ts,Vegetation,0.004349957740218584,4752
+convnext_tiny,raw,Cardboard,0.006498517532415701,4752
+convnext_tiny,raw,Food Organics,0.0039212646248224375,4752
+convnext_tiny,raw,Glass,0.0050379583883106045,4752
+convnext_tiny,raw,Metal,0.011884149161864418,4752
+convnext_tiny,raw,Miscellaneous Trash,0.0181702823573247,4752
+convnext_tiny,raw,Paper,0.0059742287161524184,4752
+convnext_tiny,raw,Plastic,0.020400833292831197,4752
+convnext_tiny,raw,Textile Trash,0.007123314647836337,4752
+convnext_tiny,raw,Vegetation,0.003518631727884371,4752
+convnext_tiny,ts,Cardboard,0.004343189913740521,4752
+convnext_tiny,ts,Food Organics,0.0040902922233998105,4752
+convnext_tiny,ts,Glass,0.004538619193426241,4752
+convnext_tiny,ts,Metal,0.007247106008503985,4752
+convnext_tiny,ts,Miscellaneous Trash,0.010459909920257167,4752
+convnext_tiny,ts,Paper,0.004413170179702969,4752
+convnext_tiny,ts,Plastic,0.013535986854770813,4752
+convnext_tiny,ts,Textile Trash,0.0034739834628686704,4752
+convnext_tiny,ts,Vegetation,0.003701349864003508,4752
+deit_small,raw,Cardboard,0.006869973971847102,4752
+deit_small,raw,Food Organics,0.0035220302791893494,4752
+deit_small,raw,Glass,0.0060914363410207815,4752
+deit_small,raw,Metal,0.013332011595330751,4752
+deit_small,raw,Miscellaneous Trash,0.019609298480218095,4752
+deit_small,raw,Paper,0.008313690698826894,4752
+deit_small,raw,Plastic,0.0207570495209559,4752
+deit_small,raw,Textile Trash,0.006974501584964634,4752
+deit_small,raw,Vegetation,0.004291315100451806,4752
+deit_small,ts,Cardboard,0.004222941560472686,4752
+deit_small,ts,Food Organics,0.004475111193257382,4752
+deit_small,ts,Glass,0.0039012492975454777,4752
+deit_small,ts,Metal,0.009242473041646507,4752
+deit_small,ts,Miscellaneous Trash,0.012191235888584522,4752
+deit_small,ts,Paper,0.00304918955563843,4752
+deit_small,ts,Plastic,0.010163836065648768,4752
+deit_small,ts,Textile Trash,0.004973590707579191,4752
+deit_small,ts,Vegetation,0.004524459762373847,4752

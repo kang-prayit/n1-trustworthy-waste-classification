@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Data and pipeline outputs (large; never committed)
+/data/
+/work/
+/work_*/
+/outputs/
+/outputs_*/
+/logs/
+/logs_*/
+/build/
+*.npz
+*.npy
+*.pt
+*.pth
+*.tar
+*.zip
+!splits/raw_artifacts/**/*.npz
+!splits/raw_artifacts/**/*.npy
+
+# Local configuration
+configs/local.yaml
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

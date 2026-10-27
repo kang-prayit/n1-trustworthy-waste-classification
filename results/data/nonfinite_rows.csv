@@ -1,0 +1,13 @@
+run_id,method,n_calconf,calconf_dropped,n_test,n_test_dropped,calconf_idx,test_idx
+trashnet-grouped-mobilenetv3_large-ce-f0-s0,raw,203,1,506,0,98,
+trashnet-grouped-mobilenetv3_large-ce-f0-s0,ts,203,1,506,0,98,
+trashnet-grouped-mobilenetv3_large-ce-f0-s0,vs,203,1,506,0,98,
+trashnet-grouped-mobilenetv3_large-ce-f0-s0,mcd,203,1,506,0,98,
+trashnet-grouped-mobilenetv3_large-ce-f3-s0,raw,203,1,505,0,103,
+trashnet-grouped-mobilenetv3_large-ce-f3-s0,ts,203,1,505,0,103,
+trashnet-grouped-mobilenetv3_large-ce-f3-s0,vs,203,1,505,0,103,
+trashnet-grouped-mobilenetv3_large-ce-f3-s0,mcd,203,1,505,0,103,
+trashnet-grouped-mobilenetv3_large-ce-f4-s0,raw,203,0,505,1,,253
+trashnet-grouped-mobilenetv3_large-ce-f4-s0,ts,203,0,505,1,,253
+trashnet-grouped-mobilenetv3_large-ce-f4-s0,vs,203,0,505,1,,253
+trashnet-grouped-mobilenetv3_large-ce-f4-s0,mcd,203,0,505,1,,253

@@ -1,0 +1,487 @@
+model,true,pred,count
+resnet101,Cardboard,Cardboard,439
+resnet101,Cardboard,Food Organics,0
+resnet101,Cardboard,Glass,0
+resnet101,Cardboard,Metal,4
+resnet101,Cardboard,Miscellaneous Trash,1
+resnet101,Cardboard,Paper,7
+resnet101,Cardboard,Plastic,8
+resnet101,Cardboard,Textile Trash,2
+resnet101,Cardboard,Vegetation,0
+resnet101,Food Organics,Cardboard,0
+resnet101,Food Organics,Food Organics,395
+resnet101,Food Organics,Glass,0
+resnet101,Food Organics,Metal,0
+resnet101,Food Organics,Miscellaneous Trash,3
+resnet101,Food Organics,Paper,0
+resnet101,Food Organics,Plastic,3
+resnet101,Food Organics,Textile Trash,0
+resnet101,Food Organics,Vegetation,10
+resnet101,Glass,Cardboard,1
+resnet101,Glass,Food Organics,0
+resnet101,Glass,Glass,402
+resnet101,Glass,Metal,10
+resnet101,Glass,Miscellaneous Trash,1
+resnet101,Glass,Paper,0
+resnet101,Glass,Plastic,6
+resnet101,Glass,Textile Trash,0
+resnet101,Glass,Vegetation,0
+resnet101,Metal,Cardboard,3
+resnet101,Metal,Food Organics,0
+resnet101,Metal,Glass,3
+resnet101,Metal,Metal,764
+resnet101,Metal,Miscellaneous Trash,7
+resnet101,Metal,Paper,1
+resnet101,Metal,Plastic,11
+resnet101,Metal,Textile Trash,1
+resnet101,Metal,Vegetation,0
+resnet101,Miscellaneous Trash,Cardboard,5
+resnet101,Miscellaneous Trash,Food Organics,4
+resnet101,Miscellaneous Trash,Glass,3
+resnet101,Miscellaneous Trash,Metal,12
+resnet101,Miscellaneous Trash,Miscellaneous Trash,411
+resnet101,Miscellaneous Trash,Paper,13
+resnet101,Miscellaneous Trash,Plastic,15
+resnet101,Miscellaneous Trash,Textile Trash,24
+resnet101,Miscellaneous Trash,Vegetation,8
+resnet101,Paper,Cardboard,11
+resnet101,Paper,Food Organics,0
+resnet101,Paper,Glass,0
+resnet101,Paper,Metal,3
+resnet101,Paper,Miscellaneous Trash,3
+resnet101,Paper,Paper,481
+resnet101,Paper,Plastic,0
+resnet101,Paper,Textile Trash,2
+resnet101,Paper,Vegetation,0
+resnet101,Plastic,Cardboard,10
+resnet101,Plastic,Food Organics,1
+resnet101,Plastic,Glass,19
+resnet101,Plastic,Metal,51
+resnet101,Plastic,Miscellaneous Trash,12
+resnet101,Plastic,Paper,2
+resnet101,Plastic,Plastic,825
+resnet101,Plastic,Textile Trash,1
+resnet101,Plastic,Vegetation,0
+resnet101,Textile Trash,Cardboard,0
+resnet101,Textile Trash,Food Organics,1
+resnet101,Textile Trash,Glass,0
+resnet101,Textile Trash,Metal,2
+resnet101,Textile Trash,Miscellaneous Trash,7
+resnet101,Textile Trash,Paper,6
+resnet101,Textile Trash,Plastic,0
+resnet101,Textile Trash,Textile Trash,301
+resnet101,Textile Trash,Vegetation,1
+resnet101,Vegetation,Cardboard,0
+resnet101,Vegetation,Food Organics,4
+resnet101,Vegetation,Glass,0
+resnet101,Vegetation,Metal,0
+resnet101,Vegetation,Miscellaneous Trash,2
+resnet101,Vegetation,Paper,0
+resnet101,Vegetation,Plastic,0
+resnet101,Vegetation,Textile Trash,0
+resnet101,Vegetation,Vegetation,430
+hybrid_r101_incv3,Cardboard,Cardboard,443
+hybrid_r101_incv3,Cardboard,Food Organics,0
+hybrid_r101_incv3,Cardboard,Glass,1
+hybrid_r101_incv3,Cardboard,Metal,2
+hybrid_r101_incv3,Cardboard,Miscellaneous Trash,2
+hybrid_r101_incv3,Cardboard,Paper,3
+hybrid_r101_incv3,Cardboard,Plastic,8
+hybrid_r101_incv3,Cardboard,Textile Trash,2
+hybrid_r101_incv3,Cardboard,Vegetation,0
+hybrid_r101_incv3,Food Organics,Cardboard,0
+hybrid_r101_incv3,Food Organics,Food Organics,388
+hybrid_r101_incv3,Food Organics,Glass,0
+hybrid_r101_incv3,Food Organics,Metal,1
+hybrid_r101_incv3,Food Organics,Miscellaneous Trash,9
+hybrid_r101_incv3,Food Organics,Paper,0
+hybrid_r101_incv3,Food Organics,Plastic,3
+hybrid_r101_incv3,Food Organics,Textile Trash,0
+hybrid_r101_incv3,Food Organics,Vegetation,10
+hybrid_r101_incv3,Glass,Cardboard,0
+hybrid_r101_incv3,Glass,Food Organics,1
+hybrid_r101_incv3,Glass,Glass,405
+hybrid_r101_incv3,Glass,Metal,5
+hybrid_r101_incv3,Glass,Miscellaneous Trash,0
+hybrid_r101_incv3,Glass,Paper,1
+hybrid_r101_incv3,Glass,Plastic,8
+hybrid_r101_incv3,Glass,Textile Trash,0
+hybrid_r101_incv3,Glass,Vegetation,0
+hybrid_r101_incv3,Metal,Cardboard,5
+hybrid_r101_incv3,Metal,Food Organics,0
+hybrid_r101_incv3,Metal,Glass,3
+hybrid_r101_incv3,Metal,Metal,757
+hybrid_r101_incv3,Metal,Miscellaneous Trash,8
+hybrid_r101_incv3,Metal,Paper,2
+hybrid_r101_incv3,Metal,Plastic,15
+hybrid_r101_incv3,Metal,Textile Trash,0
+hybrid_r101_incv3,Metal,Vegetation,0
+hybrid_r101_incv3,Miscellaneous Trash,Cardboard,4
+hybrid_r101_incv3,Miscellaneous Trash,Food Organics,1
+hybrid_r101_incv3,Miscellaneous Trash,Glass,2
+hybrid_r101_incv3,Miscellaneous Trash,Metal,10
+hybrid_r101_incv3,Miscellaneous Trash,Miscellaneous Trash,414
+hybrid_r101_incv3,Miscellaneous Trash,Paper,17
+hybrid_r101_incv3,Miscellaneous Trash,Plastic,17
+hybrid_r101_incv3,Miscellaneous Trash,Textile Trash,20
+hybrid_r101_incv3,Miscellaneous Trash,Vegetation,10
+hybrid_r101_incv3,Paper,Cardboard,11
+hybrid_r101_incv3,Paper,Food Organics,0
+hybrid_r101_incv3,Paper,Glass,0
+hybrid_r101_incv3,Paper,Metal,3
+hybrid_r101_incv3,Paper,Miscellaneous Trash,6
+hybrid_r101_incv3,Paper,Paper,479
+hybrid_r101_incv3,Paper,Plastic,0
+hybrid_r101_incv3,Paper,Textile Trash,1
+hybrid_r101_incv3,Paper,Vegetation,0
+hybrid_r101_incv3,Plastic,Cardboard,13
+hybrid_r101_incv3,Plastic,Food Organics,2
+hybrid_r101_incv3,Plastic,Glass,17
+hybrid_r101_incv3,Plastic,Metal,44
+hybrid_r101_incv3,Plastic,Miscellaneous Trash,10
+hybrid_r101_incv3,Plastic,Paper,1
+hybrid_r101_incv3,Plastic,Plastic,833
+hybrid_r101_incv3,Plastic,Textile Trash,0
+hybrid_r101_incv3,Plastic,Vegetation,1
+hybrid_r101_incv3,Textile Trash,Cardboard,0
+hybrid_r101_incv3,Textile Trash,Food Organics,0
+hybrid_r101_incv3,Textile Trash,Glass,0
+hybrid_r101_incv3,Textile Trash,Metal,0
+hybrid_r101_incv3,Textile Trash,Miscellaneous Trash,14
+hybrid_r101_incv3,Textile Trash,Paper,4
+hybrid_r101_incv3,Textile Trash,Plastic,0
+hybrid_r101_incv3,Textile Trash,Textile Trash,298
+hybrid_r101_incv3,Textile Trash,Vegetation,2
+hybrid_r101_incv3,Vegetation,Cardboard,0
+hybrid_r101_incv3,Vegetation,Food Organics,1
+hybrid_r101_incv3,Vegetation,Glass,0
+hybrid_r101_incv3,Vegetation,Metal,0
+hybrid_r101_incv3,Vegetation,Miscellaneous Trash,2
+hybrid_r101_incv3,Vegetation,Paper,0
+hybrid_r101_incv3,Vegetation,Plastic,0
+hybrid_r101_incv3,Vegetation,Textile Trash,0
+hybrid_r101_incv3,Vegetation,Vegetation,433
+efficientnetv2_s,Cardboard,Cardboard,443
+efficientnetv2_s,Cardboard,Food Organics,1
+efficientnetv2_s,Cardboard,Glass,0
+efficientnetv2_s,Cardboard,Metal,2
+efficientnetv2_s,Cardboard,Miscellaneous Trash,2
+efficientnetv2_s,Cardboard,Paper,10
+efficientnetv2_s,Cardboard,Plastic,2
+efficientnetv2_s,Cardboard,Textile Trash,1
+efficientnetv2_s,Cardboard,Vegetation,0
+efficientnetv2_s,Food Organics,Cardboard,2
+efficientnetv2_s,Food Organics,Food Organics,386
+efficientnetv2_s,Food Organics,Glass,0
+efficientnetv2_s,Food Organics,Metal,0
+efficientnetv2_s,Food Organics,Miscellaneous Trash,7
+efficientnetv2_s,Food Organics,Paper,0
+efficientnetv2_s,Food Organics,Plastic,4
+efficientnetv2_s,Food Organics,Textile Trash,0
+efficientnetv2_s,Food Organics,Vegetation,12
+efficientnetv2_s,Glass,Cardboard,2
+efficientnetv2_s,Glass,Food Organics,1
+efficientnetv2_s,Glass,Glass,394
+efficientnetv2_s,Glass,Metal,12
+efficientnetv2_s,Glass,Miscellaneous Trash,2
+efficientnetv2_s,Glass,Paper,0
+efficientnetv2_s,Glass,Plastic,9
+efficientnetv2_s,Glass,Textile Trash,0
+efficientnetv2_s,Glass,Vegetation,0
+efficientnetv2_s,Metal,Cardboard,3
+efficientnetv2_s,Metal,Food Organics,0
+efficientnetv2_s,Metal,Glass,6
+efficientnetv2_s,Metal,Metal,746
+efficientnetv2_s,Metal,Miscellaneous Trash,12
+efficientnetv2_s,Metal,Paper,2
+efficientnetv2_s,Metal,Plastic,21
+efficientnetv2_s,Metal,Textile Trash,0
+efficientnetv2_s,Metal,Vegetation,0
+efficientnetv2_s,Miscellaneous Trash,Cardboard,8
+efficientnetv2_s,Miscellaneous Trash,Food Organics,8
+efficientnetv2_s,Miscellaneous Trash,Glass,2
+efficientnetv2_s,Miscellaneous Trash,Metal,13
+efficientnetv2_s,Miscellaneous Trash,Miscellaneous Trash,399
+efficientnetv2_s,Miscellaneous Trash,Paper,12
+efficientnetv2_s,Miscellaneous Trash,Plastic,22
+efficientnetv2_s,Miscellaneous Trash,Textile Trash,24
+efficientnetv2_s,Miscellaneous Trash,Vegetation,7
+efficientnetv2_s,Paper,Cardboard,26
+efficientnetv2_s,Paper,Food Organics,0
+efficientnetv2_s,Paper,Glass,0
+efficientnetv2_s,Paper,Metal,3
+efficientnetv2_s,Paper,Miscellaneous Trash,3
+efficientnetv2_s,Paper,Paper,461
+efficientnetv2_s,Paper,Plastic,1
+efficientnetv2_s,Paper,Textile Trash,6
+efficientnetv2_s,Paper,Vegetation,0
+efficientnetv2_s,Plastic,Cardboard,24
+efficientnetv2_s,Plastic,Food Organics,2
+efficientnetv2_s,Plastic,Glass,27
+efficientnetv2_s,Plastic,Metal,50
+efficientnetv2_s,Plastic,Miscellaneous Trash,15
+efficientnetv2_s,Plastic,Paper,7
+efficientnetv2_s,Plastic,Plastic,792
+efficientnetv2_s,Plastic,Textile Trash,4
+efficientnetv2_s,Plastic,Vegetation,0
+efficientnetv2_s,Textile Trash,Cardboard,3
+efficientnetv2_s,Textile Trash,Food Organics,1
+efficientnetv2_s,Textile Trash,Glass,0
+efficientnetv2_s,Textile Trash,Metal,0
+efficientnetv2_s,Textile Trash,Miscellaneous Trash,15
+efficientnetv2_s,Textile Trash,Paper,7
+efficientnetv2_s,Textile Trash,Plastic,0
+efficientnetv2_s,Textile Trash,Textile Trash,291
+efficientnetv2_s,Textile Trash,Vegetation,1
+efficientnetv2_s,Vegetation,Cardboard,0
+efficientnetv2_s,Vegetation,Food Organics,6
+efficientnetv2_s,Vegetation,Glass,0
+efficientnetv2_s,Vegetation,Metal,0
+efficientnetv2_s,Vegetation,Miscellaneous Trash,2
+efficientnetv2_s,Vegetation,Paper,0
+efficientnetv2_s,Vegetation,Plastic,0
+efficientnetv2_s,Vegetation,Textile Trash,0
+efficientnetv2_s,Vegetation,Vegetation,428
+mobilenetv3_large,Cardboard,Cardboard,432
+mobilenetv3_large,Cardboard,Food Organics,0
+mobilenetv3_large,Cardboard,Glass,0
+mobilenetv3_large,Cardboard,Metal,5
+mobilenetv3_large,Cardboard,Miscellaneous Trash,2
+mobilenetv3_large,Cardboard,Paper,15
+mobilenetv3_large,Cardboard,Plastic,4
+mobilenetv3_large,Cardboard,Textile Trash,3
+mobilenetv3_large,Cardboard,Vegetation,0
+mobilenetv3_large,Food Organics,Cardboard,3
+mobilenetv3_large,Food Organics,Food Organics,390
+mobilenetv3_large,Food Organics,Glass,0
+mobilenetv3_large,Food Organics,Metal,1
+mobilenetv3_large,Food Organics,Miscellaneous Trash,3
+mobilenetv3_large,Food Organics,Paper,0
+mobilenetv3_large,Food Organics,Plastic,4
+mobilenetv3_large,Food Organics,Textile Trash,2
+mobilenetv3_large,Food Organics,Vegetation,8
+mobilenetv3_large,Glass,Cardboard,3
+mobilenetv3_large,Glass,Food Organics,1
+mobilenetv3_large,Glass,Glass,383
+mobilenetv3_large,Glass,Metal,17
+mobilenetv3_large,Glass,Miscellaneous Trash,1
+mobilenetv3_large,Glass,Paper,1
+mobilenetv3_large,Glass,Plastic,14
+mobilenetv3_large,Glass,Textile Trash,0
+mobilenetv3_large,Glass,Vegetation,0
+mobilenetv3_large,Metal,Cardboard,9
+mobilenetv3_large,Metal,Food Organics,2
+mobilenetv3_large,Metal,Glass,5
+mobilenetv3_large,Metal,Metal,744
+mobilenetv3_large,Metal,Miscellaneous Trash,11
+mobilenetv3_large,Metal,Paper,2
+mobilenetv3_large,Metal,Plastic,15
+mobilenetv3_large,Metal,Textile Trash,2
+mobilenetv3_large,Metal,Vegetation,0
+mobilenetv3_large,Miscellaneous Trash,Cardboard,10
+mobilenetv3_large,Miscellaneous Trash,Food Organics,8
+mobilenetv3_large,Miscellaneous Trash,Glass,1
+mobilenetv3_large,Miscellaneous Trash,Metal,18
+mobilenetv3_large,Miscellaneous Trash,Miscellaneous Trash,396
+mobilenetv3_large,Miscellaneous Trash,Paper,12
+mobilenetv3_large,Miscellaneous Trash,Plastic,12
+mobilenetv3_large,Miscellaneous Trash,Textile Trash,32
+mobilenetv3_large,Miscellaneous Trash,Vegetation,6
+mobilenetv3_large,Paper,Cardboard,28
+mobilenetv3_large,Paper,Food Organics,0
+mobilenetv3_large,Paper,Glass,0
+mobilenetv3_large,Paper,Metal,2
+mobilenetv3_large,Paper,Miscellaneous Trash,4
+mobilenetv3_large,Paper,Paper,458
+mobilenetv3_large,Paper,Plastic,1
+mobilenetv3_large,Paper,Textile Trash,7
+mobilenetv3_large,Paper,Vegetation,0
+mobilenetv3_large,Plastic,Cardboard,28
+mobilenetv3_large,Plastic,Food Organics,3
+mobilenetv3_large,Plastic,Glass,17
+mobilenetv3_large,Plastic,Metal,63
+mobilenetv3_large,Plastic,Miscellaneous Trash,16
+mobilenetv3_large,Plastic,Paper,15
+mobilenetv3_large,Plastic,Plastic,772
+mobilenetv3_large,Plastic,Textile Trash,7
+mobilenetv3_large,Plastic,Vegetation,0
+mobilenetv3_large,Textile Trash,Cardboard,5
+mobilenetv3_large,Textile Trash,Food Organics,0
+mobilenetv3_large,Textile Trash,Glass,1
+mobilenetv3_large,Textile Trash,Metal,0
+mobilenetv3_large,Textile Trash,Miscellaneous Trash,8
+mobilenetv3_large,Textile Trash,Paper,3
+mobilenetv3_large,Textile Trash,Plastic,0
+mobilenetv3_large,Textile Trash,Textile Trash,300
+mobilenetv3_large,Textile Trash,Vegetation,1
+mobilenetv3_large,Vegetation,Cardboard,0
+mobilenetv3_large,Vegetation,Food Organics,8
+mobilenetv3_large,Vegetation,Glass,0
+mobilenetv3_large,Vegetation,Metal,0
+mobilenetv3_large,Vegetation,Miscellaneous Trash,4
+mobilenetv3_large,Vegetation,Paper,0
+mobilenetv3_large,Vegetation,Plastic,0
+mobilenetv3_large,Vegetation,Textile Trash,4
+mobilenetv3_large,Vegetation,Vegetation,420
+convnext_tiny,Cardboard,Cardboard,436
+convnext_tiny,Cardboard,Food Organics,0
+convnext_tiny,Cardboard,Glass,1
+convnext_tiny,Cardboard,Metal,2
+convnext_tiny,Cardboard,Miscellaneous Trash,4
+convnext_tiny,Cardboard,Paper,11
+convnext_tiny,Cardboard,Plastic,7
+convnext_tiny,Cardboard,Textile Trash,0
+convnext_tiny,Cardboard,Vegetation,0
+convnext_tiny,Food Organics,Cardboard,1
+convnext_tiny,Food Organics,Food Organics,398
+convnext_tiny,Food Organics,Glass,0
+convnext_tiny,Food Organics,Metal,0
+convnext_tiny,Food Organics,Miscellaneous Trash,4
+convnext_tiny,Food Organics,Paper,0
+convnext_tiny,Food Organics,Plastic,1
+convnext_tiny,Food Organics,Textile Trash,0
+convnext_tiny,Food Organics,Vegetation,7
+convnext_tiny,Glass,Cardboard,0
+convnext_tiny,Glass,Food Organics,0
+convnext_tiny,Glass,Glass,411
+convnext_tiny,Glass,Metal,4
+convnext_tiny,Glass,Miscellaneous Trash,0
+convnext_tiny,Glass,Paper,0
+convnext_tiny,Glass,Plastic,5
+convnext_tiny,Glass,Textile Trash,0
+convnext_tiny,Glass,Vegetation,0
+convnext_tiny,Metal,Cardboard,2
+convnext_tiny,Metal,Food Organics,0
+convnext_tiny,Metal,Glass,3
+convnext_tiny,Metal,Metal,762
+convnext_tiny,Metal,Miscellaneous Trash,5
+convnext_tiny,Metal,Paper,2
+convnext_tiny,Metal,Plastic,16
+convnext_tiny,Metal,Textile Trash,0
+convnext_tiny,Metal,Vegetation,0
+convnext_tiny,Miscellaneous Trash,Cardboard,5
+convnext_tiny,Miscellaneous Trash,Food Organics,3
+convnext_tiny,Miscellaneous Trash,Glass,2
+convnext_tiny,Miscellaneous Trash,Metal,10
+convnext_tiny,Miscellaneous Trash,Miscellaneous Trash,416
+convnext_tiny,Miscellaneous Trash,Paper,8
+convnext_tiny,Miscellaneous Trash,Plastic,23
+convnext_tiny,Miscellaneous Trash,Textile Trash,19
+convnext_tiny,Miscellaneous Trash,Vegetation,9
+convnext_tiny,Paper,Cardboard,11
+convnext_tiny,Paper,Food Organics,0
+convnext_tiny,Paper,Glass,0
+convnext_tiny,Paper,Metal,1
+convnext_tiny,Paper,Miscellaneous Trash,4
+convnext_tiny,Paper,Paper,482
+convnext_tiny,Paper,Plastic,1
+convnext_tiny,Paper,Textile Trash,1
+convnext_tiny,Paper,Vegetation,0
+convnext_tiny,Plastic,Cardboard,8
+convnext_tiny,Plastic,Food Organics,2
+convnext_tiny,Plastic,Glass,18
+convnext_tiny,Plastic,Metal,37
+convnext_tiny,Plastic,Miscellaneous Trash,13
+convnext_tiny,Plastic,Paper,7
+convnext_tiny,Plastic,Plastic,834
+convnext_tiny,Plastic,Textile Trash,2
+convnext_tiny,Plastic,Vegetation,0
+convnext_tiny,Textile Trash,Cardboard,0
+convnext_tiny,Textile Trash,Food Organics,1
+convnext_tiny,Textile Trash,Glass,0
+convnext_tiny,Textile Trash,Metal,0
+convnext_tiny,Textile Trash,Miscellaneous Trash,16
+convnext_tiny,Textile Trash,Paper,5
+convnext_tiny,Textile Trash,Plastic,0
+convnext_tiny,Textile Trash,Textile Trash,296
+convnext_tiny,Textile Trash,Vegetation,0
+convnext_tiny,Vegetation,Cardboard,0
+convnext_tiny,Vegetation,Food Organics,5
+convnext_tiny,Vegetation,Glass,0
+convnext_tiny,Vegetation,Metal,0
+convnext_tiny,Vegetation,Miscellaneous Trash,1
+convnext_tiny,Vegetation,Paper,0
+convnext_tiny,Vegetation,Plastic,0
+convnext_tiny,Vegetation,Textile Trash,0
+convnext_tiny,Vegetation,Vegetation,430
+deit_small,Cardboard,Cardboard,442
+deit_small,Cardboard,Food Organics,0
+deit_small,Cardboard,Glass,0
+deit_small,Cardboard,Metal,3
+deit_small,Cardboard,Miscellaneous Trash,4
+deit_small,Cardboard,Paper,5
+deit_small,Cardboard,Plastic,7
+deit_small,Cardboard,Textile Trash,0
+deit_small,Cardboard,Vegetation,0
+deit_small,Food Organics,Cardboard,0
+deit_small,Food Organics,Food Organics,395
+deit_small,Food Organics,Glass,0
+deit_small,Food Organics,Metal,0
+deit_small,Food Organics,Miscellaneous Trash,5
+deit_small,Food Organics,Paper,0
+deit_small,Food Organics,Plastic,2
+deit_small,Food Organics,Textile Trash,0
+deit_small,Food Organics,Vegetation,9
+deit_small,Glass,Cardboard,0
+deit_small,Glass,Food Organics,0
+deit_small,Glass,Glass,407
+deit_small,Glass,Metal,5
+deit_small,Glass,Miscellaneous Trash,0
+deit_small,Glass,Paper,1
+deit_small,Glass,Plastic,7
+deit_small,Glass,Textile Trash,0
+deit_small,Glass,Vegetation,0
+deit_small,Metal,Cardboard,1
+deit_small,Metal,Food Organics,0
+deit_small,Metal,Glass,2
+deit_small,Metal,Metal,765
+deit_small,Metal,Miscellaneous Trash,7
+deit_small,Metal,Paper,0
+deit_small,Metal,Plastic,14
+deit_small,Metal,Textile Trash,1
+deit_small,Metal,Vegetation,0
+deit_small,Miscellaneous Trash,Cardboard,3
+deit_small,Miscellaneous Trash,Food Organics,0
+deit_small,Miscellaneous Trash,Glass,0
+deit_small,Miscellaneous Trash,Metal,13
+deit_small,Miscellaneous Trash,Miscellaneous Trash,422
+deit_small,Miscellaneous Trash,Paper,15
+deit_small,Miscellaneous Trash,Plastic,19
+deit_small,Miscellaneous Trash,Textile Trash,17
+deit_small,Miscellaneous Trash,Vegetation,6
+deit_small,Paper,Cardboard,10
+deit_small,Paper,Food Organics,0
+deit_small,Paper,Glass,0
+deit_small,Paper,Metal,5
+deit_small,Paper,Miscellaneous Trash,6
+deit_small,Paper,Paper,474
+deit_small,Paper,Plastic,2
+deit_small,Paper,Textile Trash,3
+deit_small,Paper,Vegetation,0
+deit_small,Plastic,Cardboard,9
+deit_small,Plastic,Food Organics,0
+deit_small,Plastic,Glass,16
+deit_small,Plastic,Metal,37
+deit_small,Plastic,Miscellaneous Trash,5
+deit_small,Plastic,Paper,3
+deit_small,Plastic,Plastic,850
+deit_small,Plastic,Textile Trash,1
+deit_small,Plastic,Vegetation,0
+deit_small,Textile Trash,Cardboard,0
+deit_small,Textile Trash,Food Organics,0
+deit_small,Textile Trash,Glass,0
+deit_small,Textile Trash,Metal,0
+deit_small,Textile Trash,Miscellaneous Trash,11
+deit_small,Textile Trash,Paper,5
+deit_small,Textile Trash,Plastic,1
+deit_small,Textile Trash,Textile Trash,300
+deit_small,Textile Trash,Vegetation,1
+deit_small,Vegetation,Cardboard,0
+deit_small,Vegetation,Food Organics,5
+deit_small,Vegetation,Glass,0
+deit_small,Vegetation,Metal,0
+deit_small,Vegetation,Miscellaneous Trash,3
+deit_small,Vegetation,Paper,0
+deit_small,Vegetation,Plastic,0
+deit_small,Vegetation,Textile Trash,0
+deit_small,Vegetation,Vegetation,428

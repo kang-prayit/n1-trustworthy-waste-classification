@@ -1,0 +1,9 @@
+Family,Metric,Naive protocol,Dataset,Model,Pairs,Naive mean,Grouped mean,Mean diff (naive - grouped),Median diff,W,p,p (Holm),Min attainable p
+acc | naive_aug vs grouped,acc (raw),naive_aug,realwaste,ResNet101+InceptionV3,3,0.9978,0.9443,+0.0535,+0.0536,0,0.25,0.5,0.25
+acc | naive_aug vs grouped,acc (raw),naive_aug,realwaste,ResNet101,3,0.9977,0.9398,+0.0579,+0.0578,0,0.25,0.5,0.25
+acc | naive vs grouped,acc (raw),naive,realwaste,ResNet101+InceptionV3,3,0.9345,0.9443,-0.0098,-0.0053,0,0.25,0.5,0.25
+acc | naive vs grouped,acc (raw),naive,realwaste,ResNet101,3,0.9336,0.9398,-0.0062,-0.0036,0,0.25,0.5,0.25
+macro_f1 | naive_aug vs grouped,macro_f1 (raw),naive_aug,realwaste,ResNet101+InceptionV3,3,0.9978,0.9476,+0.0502,+0.0507,0,0.25,0.5,0.25
+macro_f1 | naive_aug vs grouped,macro_f1 (raw),naive_aug,realwaste,ResNet101,3,0.9978,0.9422,+0.0556,+0.0549,0,0.25,0.5,0.25
+macro_f1 | naive vs grouped,macro_f1 (raw),naive,realwaste,ResNet101+InceptionV3,3,0.9386,0.9476,-0.0090,-0.0042,0,0.25,0.5,0.25
+macro_f1 | naive vs grouped,macro_f1 (raw),naive,realwaste,ResNet101,3,0.9345,0.9422,-0.0077,-0.0045,0,0.25,0.5,0.25

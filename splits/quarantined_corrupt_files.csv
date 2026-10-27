@@ -1,0 +1,4 @@
+dataset,relpath,split_of_origin,reason
+trashbox,cardboard/train__cardboard 1075.jpg,train,PIL cannot decode (Image.open().convert('RGB').load() raises)
+trashbox,e-waste/train__e-waste 1719.jpg,train,PIL cannot decode (Image.open().convert('RGB').load() raises)
+trashbox,paper/train__paper 2273.jpg,train,PIL cannot decode (Image.open().convert('RGB').load() raises)

@@ -1,0 +1,46 @@
+# QUICK GPU check on real data (~20-30 min on RTX 4070): run this before full.yaml.
+base: full.yaml
+name: quick
+out_dir: outputs_quick
+log_dir: logs_quick
+train: {epochs: 2}
+crossdata:
+  source: realwaste
+  targets:
+    trashnet: {Cardboard: cardboard, Glass: glass, Metal: metal, Paper: paper, Plastic: plastic}
+experiments:
+  - name: A_main_realwaste
+    dataset: realwaste
+    models: [resnet101, hybrid_r101_incv3, convnext_tiny]
+    folds: [0, 1]
+    seeds: [0, 1]
+    keep_weights_seeds: [0]
+  - name: B_naive_aug_realwaste
+    dataset: realwaste
+    protocol: naive_aug
+    naive_aug_copies: 3
+    models: [resnet101]
+    seeds: [0]
+    train: {epochs: 1}
+  - name: C_naive_realwaste
+    dataset: realwaste
+    protocol: naive
+    models: [resnet101]
+    seeds: [0]
+  - name: D_calib_losses_realwaste
+    dataset: realwaste
+    models: [resnet101]
+    losses: [ls, focal]
+    folds: [0, 1]
+    seeds: [0]
+  - name: E_seg_ablation_realwaste
+    dataset: realwaste
+    preprocess: seg
+    models: [resnet101]
+    folds: [0, 1]
+    seeds: [0]
+  - name: F_trashnet
+    dataset: trashnet
+    models: [mobilenetv3_large]
+    folds: [0]
+    seeds: [0]

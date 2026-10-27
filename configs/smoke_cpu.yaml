@@ -1,0 +1,22 @@
+# CPU smoke test on a synthetic dataset (python download_data.py --fake). Minutes, no GPU, no downloads.
+base: full.yaml
+name: smoke_cpu
+out_dir: outputs_smoke
+work_dir: work_smoke
+log_dir: logs_smoke
+cache_size: 64
+img_size: 56
+prep_workers: 2
+dedup: {phash_thresh: 6, dhash_thresh: 6, embed: false}
+cv: {n_folds: 3}
+train: {epochs: 2, batch_size: 16, eval_batch_size: 32, num_workers: 0, pretrained: false, mc_samples: 5,
+        max_train_batches: 3}
+gradcam: {dataset: fake, models: [tiny_cnn]}
+analysis: {main_dataset: fake, reference_model: tiny_cnn}
+crossdata: {source: fake, targets: {fake: {alpha: alpha, beta: beta}}}
+experiments:
+  - {name: A, dataset: fake, models: [tiny_cnn, tiny_hybrid], folds: all, seeds: [0, 1], keep_weights_seeds: [0]}
+  - {name: B, dataset: fake, protocol: naive_aug, naive_aug_copies: 1, models: [tiny_cnn], seeds: [0]}
+  - {name: C, dataset: fake, protocol: naive, models: [tiny_cnn], seeds: [0]}
+  - {name: D, dataset: fake, models: [tiny_cnn], losses: [ls, focal], folds: [0], seeds: [0]}
+  - {name: E, dataset: fake, preprocess: seg, models: [tiny_cnn], folds: [0], seeds: [0]}

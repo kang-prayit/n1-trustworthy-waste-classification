@@ -1,0 +1,53 @@
+# PLACEHOLDER: after the Zenodo release, add the concept DOI of the software as
+#   doi: "10.5281/zenodo.XXXXXXX"
+# and, after the paper is published, add its DOI under preferred-citation (doi:, volume:, start:).
+cff-version: 1.2.0
+message: "If you use this software or the released splits/results, please cite the paper (preferred-citation) and the software."
+title: "Leakage-Aware Re-evaluation, Confidence Calibration, and Conformal Selective Prediction for Trustworthy Real-World Waste Classification: code, splits and results"
+type: software
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/kang-prayit/n1-trustworthy-waste-classification"
+authors:
+  - family-names: Prayitno
+    affiliation: "Department of Electrical Engineering, Politeknik Negeri Semarang, Semarang, Indonesia; Department of Electrical Engineering, Universitas Muhammadiyah Yogyakarta, Yogyakarta, Indonesia; Department of Research and Development, SEAMEO SEAMOLEC, South Tangerang, Indonesia"
+    orcid: "https://orcid.org/0000-0002-4794-2957"
+    email: prayitno@polines.ac.id
+  - given-names: Karisma Trinanda
+    family-names: Putra
+    affiliation: "Department of Electrical Engineering, Universitas Muhammadiyah Yogyakarta, Yogyakarta, Indonesia"
+    orcid: "https://orcid.org/0000-0003-2887-3527"
+    email: karisma@umy.ac.id
+keywords:
+  - waste classification
+  - data leakage
+  - near-duplicate detection
+  - grouped cross-validation
+  - confidence calibration
+  - temperature scaling
+  - conformal prediction
+  - selective prediction
+  - trustworthy AI
+  - RealWaste
+  - TrashNet
+  - TrashBox
+abstract: >-
+  Code, leakage-aware grouped cross-validation splits, duplicate groups and final results for the paper
+  "Leakage-Aware Re-evaluation, Confidence Calibration, and Conformal Selective Prediction for Trustworthy
+  Real-World Waste Classification". The pipeline detects exact and near-duplicate images (MD5, pHash/dHash,
+  DINOv2 cosine), builds grouped stratified five-fold splits with separate calibration-fit and
+  conformal-calibration subsets, trains six architectures on RealWaste, TrashNet and TrashBox (252 runs),
+  evaluates temperature/vector scaling, MC dropout and deep ensembles, split conformal prediction (LAC, APS,
+  RAPS; marginal and Mondrian) and selective prediction, and regenerates every table and figure of the paper.
+preferred-citation:
+  type: article
+  title: "Leakage-Aware Re-evaluation, Confidence Calibration, and Conformal Selective Prediction for Trustworthy Real-World Waste Classification"
+  authors:
+    - family-names: Prayitno
+      orcid: "https://orcid.org/0000-0002-4794-2957"
+    - given-names: Karisma Trinanda
+      family-names: Putra
+      orcid: "https://orcid.org/0000-0003-2887-3527"
+  journal: "Scientific Reports"
+  year: 2026
+  notes: "Manuscript under review; DOI to be added after publication."

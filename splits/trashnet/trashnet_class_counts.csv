@@ -1,0 +1,8 @@
+class,n_images,n_images_in_dup_groups,pct_in_dup_groups,n_dup_groups_touching_class,n_after_dedup_keep_one_per_group,n_removed_by_dedup
+cardboard,403,8,1.99,4,399,4
+glass,501,3,0.6,3,501,0
+metal,410,14,3.41,7,402,8
+paper,594,46,7.74,23,571,23
+plastic,482,8,1.66,5,477,5
+trash,137,0,0.0,0,137,0
+TOTAL,2527,79,3.13,39,2487,40

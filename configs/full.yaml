@@ -1,0 +1,117 @@
+# FULL experiment for the N1 manuscript (RTX 4070 12 GB). Estimated ~30-40 GPU-hours, see README.
+name: full
+data_root: data            # relative paths are resolved against the repository root
+work_dir: work             # hashes, duplicate groups, splits, uint8 image caches
+out_dir: outputs           # runs/, results/, tables/, figures/
+log_dir: logs              # logs/progress.csv, logs/run_all.log
+cache_size: 256            # images cached as 256x256 uint8 (short-side resize + center crop)
+img_size: 224              # train: RandomResizedCrop 224; eval: center crop 224
+prep_workers: 6
+
+dedup:
+  phash_thresh: 6          # link if Hamming(pHash) <= 6 AND Hamming(dHash) <= 6, or identical MD5
+  dhash_thresh: 6
+  embed: true              # also link same-object shots via DINOv2-S embedding cosine (GPU, ~2 min)
+  embed_model: vit_small_patch14_dinov2.lvd142m
+  embed_thresh: 0.95
+  embed_same_class_only: true
+
+cv:
+  n_folds: 5               # outer group-aware stratified folds -> independent test split per fold
+  cal_frac: 0.2            # of the non-test part -> calibration split (train 64 / cal 16 / test 20 %)
+  split_seed: 2026         # identical splits for all models and seeds (paired tests, ensembles)
+  conformal_split: half    # cal -> calfit (TS/VS fitting) + calconf (conformal quantiles), disjoint
+
+train:
+  epochs: 30
+  batch_size: 64
+  eval_batch_size: 128
+  lr_backbone: 1.0e-4
+  lr_head: 1.0e-3
+  weight_decay: 0.05
+  warmup_epochs: 1
+  drop_rate: 0.2           # dropout before the linear head (also used for MC-dropout)
+  num_workers: 6           # Windows: 4-8 is fine; lower if RAM is tight
+  amp: true
+  channels_last: true
+  label_smoothing: 0.1
+  focal_gamma: 2.0
+  mc_samples: 30
+  pretrained: true
+
+eval:
+  alphas: [0.05, 0.1]
+  conformal_scores: [lac, aps, raps]
+  conformal_methods: [raw, ts, vs, mcd, ens, ens_ts]
+  raps: {lam: 0.01, k_reg: 2}
+  ece_bins: 15
+
+analysis: {main_dataset: realwaste, reference_model: resnet101}
+gradcam: {dataset: realwaste, models: [resnet101, convnext_tiny]}
+crossdata:
+  source: realwaste
+  targets:
+    trashnet: {Cardboard: cardboard, Glass: glass, Metal: metal, Paper: paper, Plastic: plastic}
+    trashbox: {Cardboard: cardboard, Glass: glass, Metal: metal, Paper: paper, Plastic: plastic}
+
+experiments:
+  # A. Main leakage-aware benchmark on RealWaste: 6 models x 5 folds x 3 seeds (ensembles from seeds)
+  - name: A_main_realwaste
+    dataset: realwaste
+    protocol: grouped
+    models: [resnet101, hybrid_r101_incv3, efficientnetv2_s, mobilenetv3_large, convnext_tiny, deit_small]
+    losses: [ce]
+    folds: all
+    seeds: [0, 1, 2]
+    keep_weights_seeds: [0]          # weights kept for Grad-CAM and cross-dataset check
+  # B. Naive protocol mimicking the reference: offline augmentation (x3 copies) BEFORE a random 70/15/15 split
+  - name: B_naive_aug_realwaste
+    dataset: realwaste
+    protocol: naive_aug
+    naive_aug_copies: 3
+    models: [resnet101, hybrid_r101_incv3]
+    seeds: [0, 1, 2]
+    train: {epochs: 15}              # 4x more items -> similar number of optimisation steps as A
+  # C. Naive random 70/15/15 split without augmentation leakage (isolates the duplicate effect)
+  - name: C_naive_realwaste
+    dataset: realwaste
+    protocol: naive
+    models: [resnet101, hybrid_r101_incv3]
+    seeds: [0, 1, 2]
+  # D. Train-time calibration: label smoothing and focal loss
+  - name: D_calib_losses_realwaste
+    dataset: realwaste
+    protocol: grouped
+    models: [resnet101, hybrid_r101_incv3, efficientnetv2_s, mobilenetv3_large, convnext_tiny, deit_small]
+    losses: [ls, focal]
+    folds: all
+    seeds: [0]
+  # E. Segmentation pre-processing ablation (approximation of Kumar et al. Alg. 1)
+  - name: E_seg_ablation_realwaste
+    dataset: realwaste
+    protocol: grouped
+    preprocess: seg
+    models: [resnet101, hybrid_r101_incv3]
+    folds: all
+    seeds: [0]
+  # F. TrashNet (6 classes)
+  - name: F_trashnet
+    dataset: trashnet
+    protocol: grouped
+    models: [resnet101, hybrid_r101_incv3, efficientnetv2_s, mobilenetv3_large, convnext_tiny, deit_small]
+    folds: all
+    seeds: [0]
+  - name: F2_trashnet_seeds
+    dataset: trashnet
+    protocol: grouped
+    models: [resnet101, convnext_tiny]
+    folds: all
+    seeds: [1, 2]
+  # G. TrashBox (7 classes, 17.9k images): fewer epochs
+  - name: G_trashbox
+    dataset: trashbox
+    protocol: grouped
+    models: [resnet101, hybrid_r101_incv3, efficientnetv2_s, mobilenetv3_large, convnext_tiny, deit_small]
+    folds: all
+    seeds: [0]
+    train: {epochs: 12}

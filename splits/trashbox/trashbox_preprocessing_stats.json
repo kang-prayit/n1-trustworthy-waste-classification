@@ -1,0 +1,108 @@
+{
+  "dataset": "trashbox",
+  "n_classes": 7,
+  "n_images": 17853,
+  "n_groups": 16819,
+  "n_duplicate_groups": 855,
+  "n_images_in_duplicate_groups": 1889,
+  "pct_images_in_duplicate_groups": 10.58,
+  "n_redundant_images": 1034,
+  "n_images_after_dedup": 16819,
+  "largest_group": 53,
+  "n_exact_md5_duplicate_images": 724,
+  "n_exact_md5_groups": 344,
+  "n_hash_pairs": 842,
+  "n_embedding_pairs": 1360,
+  "n_links_total": 1409,
+  "n_cross_class_links": 11,
+  "n_cross_class_exact_md5_links": 3,
+  "n_mixed_label_groups": 7,
+  "n_groups_by_criterion_only": {
+    "MD5": 1,
+    "pHash<=6&dHash<=6": 24,
+    "DINOv2cos>=0.95": 164
+  },
+  "phash_thresh": 6,
+  "dhash_thresh": 6,
+  "embed_thresh": 0.95,
+  "folds": [
+    {
+      "fold": 0,
+      "train": 11425,
+      "cal_ts": 1428,
+      "cal_conf": 1429,
+      "test": 3571
+    },
+    {
+      "fold": 1,
+      "train": 11425,
+      "cal_ts": 1428,
+      "cal_conf": 1429,
+      "test": 3571
+    },
+    {
+      "fold": 2,
+      "train": 11426,
+      "cal_ts": 1428,
+      "cal_conf": 1428,
+      "test": 3571
+    },
+    {
+      "fold": 3,
+      "train": 11425,
+      "cal_ts": 1429,
+      "cal_conf": 1429,
+      "test": 3570
+    },
+    {
+      "fold": 4,
+      "train": 11426,
+      "cal_ts": 1429,
+      "cal_conf": 1428,
+      "test": 3570
+    }
+  ],
+  "naive": {
+    "aug0": {
+      "items": {
+        "train": 12497,
+        "cal_ts": 1339,
+        "cal_conf": 1339,
+        "test": 2678
+      },
+      "pct_test_items_whose_source_image_in_train": 0.0,
+      "pct_test_items_whose_dup_group_in_train": 8.55
+    }
+  },
+  "check_groups_reproduced_from_links": true,
+  "check_folds_group_disjoint": true,
+  "official_split_sizes": {
+    "train": 14279,
+    "test": 1793,
+    "val": 1781
+  },
+  "official_leakage_pct": {
+    "md5_only": {
+      "test_in_train": 2.9,
+      "val_in_train": 3.54,
+      "test_in_val": 0.39,
+      "n_test_images_with_train_dup": 52,
+      "n_val_images_with_train_dup": 63
+    },
+    "md5_or_hash": {
+      "test_in_train": 6.36,
+      "val_in_train": 7.13,
+      "test_in_val": 0.67,
+      "n_test_images_with_train_dup": 114,
+      "n_val_images_with_train_dup": 127
+    },
+    "all_criteria": {
+      "test_in_train": 8.37,
+      "val_in_train": 9.1,
+      "test_in_val": 1.17,
+      "n_test_images_with_train_dup": 150,
+      "n_val_images_with_train_dup": 162
+    }
+  },
+  "n_quarantined": 3
+}

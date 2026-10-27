@@ -1,0 +1,61 @@
+{
+  "title": "Leakage-Aware Re-evaluation, Confidence Calibration, and Conformal Selective Prediction for Trustworthy Real-World Waste Classification: code, splits and results",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "description": "<p>Code, leakage-aware grouped cross-validation splits, duplicate groups and final results for the paper <em>Leakage-Aware Re-evaluation, Confidence Calibration, and Conformal Selective Prediction for Trustworthy Real-World Waste Classification</em> (Prayitno and Putra, Scientific Reports, under review).</p><p>The pipeline detects exact and near-duplicate images (MD5, pHash/dHash, DINOv2 cosine), builds grouped stratified five-fold splits with separate calibration-fit and conformal-calibration subsets, trains six architectures on RealWaste, TrashNet and TrashBox (252 runs), evaluates temperature and vector scaling, MC dropout and deep ensembles, split conformal prediction (LAC, APS, RAPS; marginal and class-conditional) and selective prediction, and regenerates every table and figure of the paper. No dataset images are redistributed.</p><p>Code: MIT licence. Results, tables, figures and split files: CC BY 4.0 (see LICENSE-DATA.md). Per-run prediction probabilities are not included; they are available from the corresponding author on reasonable request. The datasets (RealWaste, TrashNet, TrashBox) are third-party and are not redistributed; see the README for sources, licences and citations.</p>",
+  "creators": [
+    {
+      "name": "Prayitno",
+      "affiliation": "Politeknik Negeri Semarang; Universitas Muhammadiyah Yogyakarta; SEAMEO SEAMOLEC",
+      "orcid": "0000-0002-4794-2957"
+    },
+    {
+      "name": "Putra, Karisma Trinanda",
+      "affiliation": "Universitas Muhammadiyah Yogyakarta",
+      "orcid": "0000-0003-2887-3527"
+    }
+  ],
+  "keywords": [
+    "waste classification",
+    "data leakage",
+    "near-duplicate detection",
+    "grouped cross-validation",
+    "confidence calibration",
+    "conformal prediction",
+    "selective prediction",
+    "trustworthy AI",
+    "RealWaste",
+    "TrashNet",
+    "TrashBox"
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/kang-prayit/n1-trustworthy-waste-classification",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "10.1038/PLACEHOLDER-PAPER-DOI",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.24432/C5SS4G",
+      "relation": "references",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://github.com/garythung/trashnet",
+      "relation": "references",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "10.23919/FRUCT54823.2022.9770922",
+      "relation": "references",
+      "resource_type": "publication-conferencepaper"
+    }
+  ]
+}

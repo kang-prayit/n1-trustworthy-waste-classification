@@ -1,0 +1,9 @@
+class,n_images,n_images_in_dup_groups,pct_in_dup_groups,n_dup_groups_touching_class,n_after_dedup_keep_one_per_group,n_removed_by_dedup
+cardboard,2412,255,10.57,121,2278,134
+e-waste,3007,431,14.33,207,2783,224
+glass,2528,595,23.54,271,2203,325
+medical,1957,73,3.73,36,1920,37
+metal,2586,140,5.41,68,2513,73
+paper,2694,208,7.72,70,2553,141
+plastic,2669,187,7.01,89,2569,100
+TOTAL,17853,1889,10.58,855,16819,1034
